@@ -90,7 +90,6 @@ section {
 
 .nuestros_servicios h1 {
 	text-align: center;
-	color: #8A36D2;
 	padding-bottom: 3vh;
 }
 
@@ -153,7 +152,6 @@ section {
 
 
 .quienes_somos h1 {
-	color: #8A36D2;
 	padding-bottom: 3vh;
 }
 
@@ -173,6 +171,10 @@ section {
 	padding-left: 10%;
 }
 
+.quienes_somos__text li h2 {
+	text-decoration: underline #8A36D2;
+}
+
 .quienes_somos__img_lateral {
 	display: none;
 }
@@ -185,7 +187,6 @@ section {
 }
 
 .opiniones h1 {
-	color: #8A36D2;
 	padding-bottom: 3vh;
 }
 
@@ -231,7 +232,13 @@ footer li{
 }
 
 footer img {
-	width: 2rem;
+	width: 1.8rem;
+}
+
+.redes {
+	width: 100%;
+	display: flex;
+	gap: 10%;
 }
 
 @media (min-width: 930px ){
